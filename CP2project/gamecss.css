@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #6D9773;
+  overflow: hidden;
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #0C3B2E;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFBA00
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #BB8A52;
+  color: black;
+}
+
+
+.prvi {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  text-align: center;
+}
+
+.drugi{
+  float: left;
+  width: 60%;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+table, tr{
+  border-style: solid;
+  color: black;
+  background-color: #FFBA00;
+  vertical-align: center;
+  margin-top: 40px;
+}
+td{
+  width: 120px;
+  border-style: solid;
+  color: black;
+  height: 120px;
+  text-align: center;
+}
+
+.timer{
+  background-color: black;
+  height: 100px;
+  width: 250x;
+  margin-left: 20px;
+}
+
+.ball1{
+  position: relative;
+  background-color: #00584B;
+  height: 900px;
+  width: 900px;
+  border-radius: 900px;
+  top: -300px;
+  left: -1500px;
+  z-index: -1;
+}
+
+.ball2{
+  position: relative;
+  background-color: #D8E267;
+  height: 500px;
+  width: 500px;
+  border-radius: 500px;
+  top: 100px;
+  left: 1000px;
+}
+.rect{
+  height: 100px;
+  width: 1000px;
+  position: relative;
+  background-color: darkred;
+  border-radius: 50px;
+  top: -435px;
+  left: 700px;
+  z-index: -3;
+}
+
+img{
+  height: 75px;
+  width: 75px;
+}

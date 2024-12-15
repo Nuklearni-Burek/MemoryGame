@@ -1,0 +1,36 @@
+body{
+	background-color: #6D9773;
+	overflow: hidden;
+}
+h1{
+	color: #FFBA00;
+	font-family: Garamond;
+	font-size: 150px;
+}
+.prvi{
+	margin-top: 50px;
+	text-align: center;
+}
+.drugi{
+	position: relative;
+	background-color: darkred;
+	height: 500px;
+	width: 500px;
+	border-radius: 500px;
+	animation-name: moving;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	z-index: -1;
+}
+h4{
+	color: #OC3B2E;
+	font-family: Garamond;
+	font-size: 50px;
+}
+@keyframes moving {
+  0%   {left:-250px; top:0px;}
+  25%  { left:1100px; top:0px;}
+  50%  {left:1100px; top:-630px;}
+  75%  { left:-250px; top:-630px;}
+  100% { left:-250px; top:0px;}
+}
